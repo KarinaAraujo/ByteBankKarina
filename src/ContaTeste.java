@@ -1,7 +1,7 @@
 public class ContaTeste
 {
     public static void main(final String[] args) {
-        final Conta conta = new Conta(1000.0);
+        Conta conta = new Conta(1000.0);
         conta.saca(500.0);
         System.out.println("Saldo: " + conta.getSaldo());
         conta.setAgencia(222);
