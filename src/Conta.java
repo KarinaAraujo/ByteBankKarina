@@ -60,7 +60,7 @@ public class Conta {
 		return this.titular;
 	}
 
-	public void setTitular(final String titular) {
+	public void setTitular( String titular) {
 		this.titular = titular;
 	}
 }
